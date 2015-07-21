@@ -1,7 +1,7 @@
 
 This function creates a special 'matrix'object than can cache its inverse .
 
-it will create a ;ist that contains 4 functions ,set ,get ,setInv , getInv
+it will create a list that contains 4 member functions ,set ,get ,setInv , getInv
 
 makeCacheMatrix <- function(x = matrix()) {
         xinv <- NULL
